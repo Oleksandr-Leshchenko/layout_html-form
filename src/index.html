@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="post"
-    onsubmit="onSubmit()"
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      onsubmit="onSubmit()"
     >
       <!-- Personal information -->
       <fieldset class="container">
@@ -26,7 +27,7 @@
           </label>
           <input
             type="text"
-            name="Surname"
+            name="surname"
             id="surname"
           >
         </div>
@@ -36,7 +37,7 @@
           </label>
           <input
             type="text"
-            name="Name"
+            name="name"
             id="name"
           >
         </div>
@@ -47,7 +48,7 @@
           <input
             id="age"
             type="number"
-            name="How old are You"
+            name="age"
             min="12"
             max="100"
             value="12"
@@ -59,7 +60,7 @@
           </label>
           <input
             type="date"
-            name="Full date of birth"
+            name="birth"
             id="birth"
           >
         </div>
@@ -69,7 +70,7 @@
           </label>
           <input
             type="checkbox"
-            name="I accept the term of the agreement"
+            name="term"
             id="term"
             required
           >
@@ -83,25 +84,25 @@
           Registration
         </legend>
         <div class="form-field">
-          <label for="em">
+          <label for="email">
             E-mail:
           </label>
           <input
             type="email"
             name="email"
-            id="em"
+            id="email"
             placeholder="email@example.com"
             required
           >
         </div>
         <div class="form-field">
-          <label for="pass">
+          <label for="password">
             Password:
           </label>
           <input
             type="password"
             name="password"
-            id="pass"
+            id="password"
             required
             minlength="5"
             maxlength="20"
@@ -136,13 +137,13 @@
           </label>
         </div>
         <div class="form-field">
-          <label for="rgb">
+          <label for="color">
             What is your favorite color?
           </label>
           <input
             type="color"
-            name="rgb"
-            id="rgb"
+            name="color"
+            id="color"
           >
         </div>
         <div class="form-field">
@@ -152,7 +153,7 @@
           <input
             id="time to bed"
             type="time"
-            name="ttb"
+            name="time to bed"
           >
         </div>
         <label class="form-field" for="cars">
@@ -197,7 +198,7 @@
          ></textarea>
         </div>
         <div class="form-field">
-          <label for="pass">
+          <label for="options">
             Would you recommend us?
           </label>
           <select name="options" id="options">
